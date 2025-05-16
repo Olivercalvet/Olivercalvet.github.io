@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>RedBird</title>
 </head>
 <body>
     <header class="header_desktop">
         <article class="identificador_visual">
-            <img src="Imagen/RdBird (Identificador Visual).png" alt="Identificador Visual de la empresa">
+            <img src="Imagen/identificador.svg" alt="Identificador Visual de la empresa">
         </article>
 
         <nav>
@@ -26,8 +27,8 @@
     </header>
 
     <header class="header_mobile">
-        <article class="identificador_visual">
-            <img src="Imagen/RdBird (Identificador Visual).png" alt="Identificador Visual de la empresa">
+        <article class="identificador-visual-mobile">
+            <img src="Imagen/identificador.svg" alt="Identificador Visual de la empresa">
         </article>
 
         <input type="checkbox" class="btn-menu" id="btn-menu">
@@ -70,15 +71,16 @@
         </nav>
         
     </header>
+
     <section id="home">
         <section class="home_desktop_responsive">
         <main class="cont_home">
             <div class="cont_information">
-                <article class="imagen_slogan">
+                <article class="imagen_slogan" data-aos="fade-down" data-aos-offset="50" data-aos-duration="1000">
                     <img src="Imagen/Eslogan.png" alt="Fotografía del eslogan de la Aplicación RedBird">
                 </article>
 
-                <p>
+                <p data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000">
                     RedBird – Fair Rides, Better Pay.
                     <br><br>
                     RedBird is the rideshare app that puts people first.
@@ -89,7 +91,7 @@
                     We’re building a new kind of rideshare, one that’s simple, fair, and made for everyone.
                 </p>
 
-                <div class="btn_rrss">
+                <div class="btn_rrss" data-aos="fade-up" data-aos-offset="50" data-aos-duration="1000">
                     <div class="btn">
                         <a href="">Contact Us</a>
                     </div>
@@ -102,7 +104,7 @@
                 </div>
             </div>
 
-            <article class="imagen_home">
+            <article class="imagen_home" data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
                 <img src="Imagen/Movil Home.png" alt="Mockups de la aplicación RedBird">
             </article>
         </main>
@@ -110,16 +112,16 @@
 
     <section class="home_mobile_responsive">
         <main class="cont_home">
-            <article class="imagen_slogan">
+            <article class="imagen_slogan" data-aos="fade-down" data-aos-offset="50" data-aos-duration="1000">
                 <img src="Imagen/Eslogan.png" alt="Fotografía del eslogan de la Aplicación RedBird">
             </article>
 
-            <article class="imagen_home">
+            <article class="imagen_home" data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
                 <img src="Imagen/Movil Home.png" alt="Mockups de la aplicación RedBird">
             </article>
 
             <div class="cont_mobile_responsive">
-                <p>
+                <p data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000">
                     RedBird – Fair Rides, Better Pay.
                     <br><br>
                     RedBird is the rideshare app that puts people first.
@@ -130,7 +132,7 @@
                     We’re building a new kind of rideshare, one that’s simple, fair, and made for everyone.
                 </p>
 
-                <div class="btn">
+                <div class="btn" data-aos="fade-up" data-aos-offset="50" data-aos-duration="1000">
                     <a href="">Contact Us</a>
                 </div>
             </div>           
@@ -142,7 +144,7 @@
         <section class="redbird_desktop_responsive">
         <main>
             <section class="cont_info_travel_left">
-                <article>
+                <article data-aos="fade-right" data-aos-duration="700">
                     <img src="Imagen/Iconografía/Reloj.svg" alt="icono reloj">
 
                     <h4>Tired of waiting?</h4>
@@ -153,7 +155,7 @@
                     </p>
                 </article>
 
-                <article>
+                <article data-aos="fade-right" data-aos-duration="700">
                     <img src="Imagen/Iconografía/Dinero.svg" alt="icono dinero">
 
                     <h4>Transparent Pricing</h4>
@@ -164,7 +166,7 @@
                     </p>
                 </article>
 
-                <article>
+                <article data-aos="fade-right" data-aos-duration="700">
                     <img src="Imagen/Iconografía/Escudo.svg" alt="icono escudo">
 
                     <h4>Safety First</h4>
@@ -175,7 +177,7 @@
                     </p>
                 </article>
 
-                <article>
+                <article data-aos="fade-right" data-aos-duration="700">
                     <img src="Imagen/Iconografía/List.svg" alt="icono lista">
 
                     <h4>Different Options</h4>
@@ -188,17 +190,17 @@
             </section>
 
             <section class="imagenes_centro">
-                <article class="logo_horizontal">
+                <article class="logo_horizontal" data-aos="zoom-in-down">
                     <img src="Imagen/RdBird (Identificador Visual - Horizontal).png" alt="RedBird logo horizontal">
                 </article>
 
-                <article class="movil_parcel_travel">
+                <article class="movil_parcel_travel" data-aos="zoom-in-up">
                     <img src="Imagen/Mockups movil app (travel-parcel).png" alt="Mockups de movil de aplicación de viaje y paquetería">                
                 </article>
             </section>
 
             <section class="cont_info_parcel_right">
-                <article>
+                <article data-aos="fade-left">
                     <img src="Imagen/Iconografía/Caja.svg" alt="icono caja">
 
                     <h4>Need to ship <br> something fast?</h4>
@@ -209,7 +211,7 @@
                     </p>
                 </article>
 
-                <article>
+                <article data-aos="fade-left">
                     <img src="Imagen/Iconografía/Pesa.svg" alt="icono pesa">
 
                     <h4>Different sizes, <br> same benefits</h4>
@@ -219,7 +221,7 @@
                     </p>
                 </article>
 
-                <article>
+                <article data-aos="fade-left">
                     <img src="Imagen/Iconografía/Escudo.svg" alt="icono escudo">
 
                     <h4>Reliable Home <br> Delivery</h4>
@@ -229,7 +231,7 @@
                     </p>
                 </article>
 
-                <article>
+                <article data-aos="fade-left">
                     <img src="Imagen/Iconografía/Ubicación.svg" alt="icono ubicación">
 
                     <h4>Real-Time Tracking</h4>
@@ -248,14 +250,14 @@
             <img src="Imagen/Iconografía/Logo vertical (redbird).svg" alt="Logo RedBird">
         </article>
 
-        <h1>Travel</h1>
+        <h1 data-aos="fade-down" data-aos-offset="50" data-aos-duration="1000">Travel</h1>
 
         <article class="photo_phone_travel_mobile">
-            <img src="Imagen/Mobile travel (responsive mobile).png" alt="App RedBird Travel">
+            <img src="Imagen/Mobile travel (responsive mobile).png" alt="App RedBird Travel" data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
         </article>
 
         <section class="cont_info_travel_left_mobile">
-            <article>
+            <article data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000">
                 <div>
                     <img src="Imagen/Iconografía/Reloj.svg" alt="icono reloj">
                 </div>                
@@ -268,7 +270,7 @@
                 </p>
             </article>
 
-            <article>
+            <article data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
                 <div>
                     <img src="Imagen/Iconografía/Dinero.svg" alt="icono dinero">
                 </div>
@@ -281,7 +283,7 @@
                 </p>
             </article>
 
-            <article>
+            <article data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000">
                 <div>
                     <img src="Imagen/Iconografía/Escudo.svg" alt="icono escudo">
                 </div>
@@ -294,7 +296,7 @@
                 </p>
             </article>
 
-            <article>
+            <article data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
                 <div>
                     <img src="Imagen/Iconografía/List.svg" alt="icono lista">
                 </div>
@@ -308,14 +310,14 @@
             </article>                
         </section>
 
-        <h1>Parcel</h1>
+        <h1 data-aos="fade-down" data-aos-offset="50" data-aos-duration="1000">Parcel</h1>
 
         <div class="photo_phone_parcel_redbird_mobile">
-            <img src="Imagen/Mobile parcel (responsive mobile).png" alt="App RedBird Parcel">
+            <img src="Imagen/Mobile parcel (responsive mobile).png" alt="App RedBird Parcel" data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
         </div>
 
         <section class="cont_info_travel_left_mobile">
-            <article>
+            <article data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000">
                 <div>
                     <img src="Imagen/Iconografía/Caja.svg" alt="icono caja">
                 </div>
@@ -328,7 +330,7 @@
                 </p>
             </article>
 
-            <article>
+            <article data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
                 <div>
                     <img src="Imagen/Iconografía/Pesa.svg" alt="icono pesa">
                 </div>
@@ -340,7 +342,7 @@
                 </p>
             </article>
 
-            <article>
+            <article data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000">
                 <div>
                     <img src="Imagen/Iconografía/Escudo.svg" alt="icono escudo">
                 </div>
@@ -352,7 +354,7 @@
                 </p>
             </article>
 
-            <article>
+            <article data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
                 <div>
                     <img src="Imagen/Iconografía/Ubicación.svg" alt="icono ubicación">
                 </div>
@@ -372,9 +374,9 @@
         <section class="driver_community_desktop">
         <main>
             <section>
-                <h1>Join our community <br> of drivers!</h1>
+                <h1 data-aos="fade-down" data-aos-duration="700">Join our community <br> of drivers!</h1>
 
-                <div class="cont_centar">
+                <div class="cont_centar" data-aos="fade-left" data-aos-duration="700">
                     <p class="texto_driver_community">
                         Are you ready to take your driving 
                         experience to the next level? We invite 
@@ -414,68 +416,68 @@
                 </div>
             </section>
 
-            <div class="btn">
+            <div class="btn" data-aos="fade-up" data-aos-duration="700">
                 <a href="">Join Waitlist</a>
             </div>
         </main>
-    </section>
+        </section>
 
-    <section class="driver_community_mobile">
-        <h1>Join our community of drivers!</h1>
+        <section class="driver_community_mobile">
+            <h1 data-aos="fade-down" data-aos-offset="50" data-aos-duration="1000">Join our community of drivers!</h1>
 
-        <article class="photo_driver_community_mobile">
-            <img src="Imagen/Mano con móvil.png" alt="Mano con teléfono con la app RedBird">
-        </article>
+            <article class="photo_driver_community_mobile" data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000">
+                <img src="Imagen/Mano con móvil.png" alt="Mano con teléfono con la app RedBird">
+            </article>
 
-        <p>
-            Are you ready to take your driving experience to the next level? We invite you to 
-            be part of our innovative app, where you can connect with customers who need your 
-            services.
-        </p>
+            <p data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
+                Are you ready to take your driving experience to the next level? We invite you to 
+                be part of our innovative app, where you can connect with customers who need your 
+                services.
+            </p>
 
-        <h2>Why be part of our app?</h2>
+            <h2 data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000">Why be part of our app?</h2>
 
-        <div class="cont_list_why_be_part_mobile">
-            <article class="total_flexibility_mobile">
-            <img src="Imagen/Iconografía/Palomita.svg" alt="Palomita icono">
+            <div class="cont_list_why_be_part_mobile" data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
+                <article class="total_flexibility_mobile">
+                    <img src="Imagen/Iconografía/Palomita.svg" alt="Palomita icono">
 
-            <label>
-                <span>Total Flexibility:</span> Work on your schedule and choose when and where 
-                you want to drive. 
-            </label>
-        </article>
+                    <label>
+                        <span>Total Flexibility:</span> Work on your schedule and choose when and where 
+                        you want to drive. 
+                    </label>
+                </article>
 
-        <article class="unlimited_opportunities_mobile">
-            <img src="Imagen/Iconografía/Palomita.svg" alt="Palomita icono">
+                <article class="unlimited_opportunities_mobile">
+                    <img src="Imagen/Iconografía/Palomita.svg" alt="Palomita icono">
 
-            <label>
-                <span>Unlimited Opportunities:</span> Access a wide base of clients looking for 
-                your skills. 
-            </label>
-        </article>
+                    <label>
+                        <span>Unlimited Opportunities:</span> Access a wide base of clients looking for 
+                        your skills. 
+                    </label>
+                </article>
 
-        <article class="ongoing_support_mobile">
-            <img src="Imagen/Iconografía/Palomita.svg" alt="Palomita icono">
+                <article class="ongoing_support_mobile">
+                    <img src="Imagen/Iconografía/Palomita.svg" alt="Palomita icono">
 
-            <label>
-                <span>Ongoing Support:</span> Our team is here to help you every step of the way.
-            </label>
-        </article>
-        </div>
+                    <label>
+                        <span>Ongoing Support:</span> Our team is here to help you every step of the way.
+                    </label>
+                </article>
+            </div>
 
-        <div class="btn">
-            <a href="">Join Waitlist</a>
-        </div>
-    </section>
+            <div class="btn" data-aos="fade-up" data-aos-offset="50" data-aos-duration="1000">
+                <a href="">Join Waitlist</a>
+            </div>
+        </section>
     </section>
 
     <section class="driver_community_2_desktop">
         <main>
             <section class="info_left_driver_community_2">
-                <h1>How to create a <br> driver account</h1>
+                <h1 data-aos="fade-down" data-aos-duration="700">How to create a <br> driver account</h1>
 
                 <div class="cont_card_info_left_driver_community_2">
-                    <article>
+                    <article data-aos="fade-right" data-aos-duration="700">
                         <img src="Imagen/Iconografía/Perfil.svg" alt="icono perfil">
 
                         <div class="text_card_info_left_driver_community_2">
@@ -487,7 +489,7 @@
                         </div>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-right" data-aos-duration="700">
                         <img src="Imagen/Iconografía/Carro.svg" alt="icono carro">
 
                         <div class="text_card_info_left_driver_community_2">
@@ -500,7 +502,7 @@
                         </div>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-right" data-aos-duration="700">
                         <img src="Imagen/Iconografía/Estrella.svg" alt="icono estrella">
 
                         <div class="text_card_info_left_driver_community_2">
@@ -515,21 +517,21 @@
                 </div>
             </section>
 
-            <article class="foto_right_driver_community_2">
+            <article class="foto_right_driver_community_2" data-aos="fade-left" data-aos-duration="700">
                 <img src="Imagen/Psd_1 1.png" alt="Foto de móvil con la aplicación de RedBird">
             </article>
         </main>
     </section>
 
     <section class="driver_community_2_mobile">
-        <h1>How to create a driver account</h1>
+        <h1 data-aos="fade-down" data-aos-offset="50" data-aos-duration="1000">How to create a driver account</h1>
 
-        <article class="photo_movil_user_mobile">
+        <article class="photo_movil_user_mobile" data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
             <img src="Imagen/Móvil usuario.png" alt="Foto móvil con la app RedBird Usuario">
         </article>
 
         <div class="cont_card_info_left_driver_community_2_mobile">
-            <article>
+            <article data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000">
                 <div>
                     <img src="Imagen/Iconografía/Perfil.svg" alt="icono perfil">
                 </div>
@@ -543,7 +545,7 @@
                 </div>
             </article>
 
-            <article>
+            <article data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
                 <div>
                     <img src="Imagen/Iconografía/Carro.svg" alt="icono carro">
                 </div>                
@@ -558,7 +560,7 @@
                 </div>
             </article>
 
-            <article>
+            <article data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000">
                 <div>
                     <img src="Imagen/Iconografía/Estrella.svg" alt="icono estrella">
                 </div>
@@ -577,15 +579,15 @@
 
     <section class="subscription_plans_desktop">
         <main>
-            <article class="subscription_plans_fotografia_movil">
+            <article class="subscription_plans_fotografia_movil" data-aos="fade-right" data-aos-duration="700">
                 <img src="Imagen/002 1.png" alt="Fotografía de teléfono con la aplicación de RedBird (planes de suscripción)">
             </article>
 
             <section class="cont_subscription_plans_right">
-                <h1>Subscription Plans</h1>
+                <h1 data-aos="fade-down" data-aos-duration="700">Subscription Plans</h1>
 
                 <section class="cont_card_right">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-duration="700">
                         <div class="icono_dinero">
                             <img src="Imagen/Iconografía/Bolsa de dinero.svg" alt="bolsa de dinero icono">
                         </div>
@@ -639,7 +641,7 @@
                         </div>
                     </div>
 
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-duration="1300">
                         <div class="icono_dinero">
                             <img src="Imagen/Iconografía/Bolsa de dinero.svg" alt="bolsa de dinero icono">
                         </div>
@@ -700,14 +702,14 @@
     </section>
 
     <section class="subscription_plans_mobile">
-        <h1>Subcription Plans</h1>
+        <h1 data-aos="fade-down" data-aos-offset="50" data-aos-duration="1000">Subcription Plans</h1>
 
         <div class="photo_subscription_plans_mobile">
-            <img src="Imagen/Móvil con planes de suscripción.png" alt="Móvil con la app RedBird Planes de Suscripciones">
+            <img src="Imagen/Móvil con planes de suscripción.png" alt="Móvil con la app RedBird Planes de Suscripciones" data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
         </div>
 
         <section class="cont_card_right">
-            <div class="card">
+            <div class="card" data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000">
                 <div class="icono_dinero">
                     <img src="Imagen/Iconografía/Bolsa de dinero.svg" alt="bolsa de dinero icono">
                 </div>
@@ -761,7 +763,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
                 <div class="icono_dinero">
                     <img src="Imagen/Iconografía/Bolsa de dinero.svg" alt="bolsa de dinero icono">
                 </div>
@@ -823,9 +825,9 @@
         <section class="about_us_desktop">
         <main>
             <div class="cont_info_let_about_us">
-                <h1>About Us</h1>
+                <h1 data-aos="fade-down" data-aos-duration="1500">About Us</h1>
 
-                <p>
+                <p data-aos="fade-right" data-aos-duration="1000">
                     RedBird is a new kind of rideshare app—built 
                     on fairness, freedom, and transparency. We started 
                     RedBird because we saw a broken system: drivers 
@@ -861,25 +863,25 @@
                     Fair rides. Better pay. And a new standard for how apps should treat people.
                 </p>
 
-                <div class="btn">
+                <div class="btn" data-aos="fade-up" data-aos-duration="500">
                     <a href="">Contact Us</a>
                 </div>
             </div>
 
-            <div class="cont_img_right_about_us">
+            <div class="cont_img_right_about_us" data-aos="fade-left" data-aos-duration="1000">
                 <img src="Imagen/Group 1054.png" alt="Movil con la aplicación de RedBird en intro">
             </div>
         </main>
     </section>
 
     <section class="about_us_mobile">
-        <h1>About Us</h1>
+        <h1 data-aos="fade-down" data-aos-offset="50" data-aos-duration="1000">About Us</h1>
 
         <div class="photo_about_us_mobile">
-            <img src="Imagen/Móvil RedBird.png" alt="Móvil RedBird app">
+            <img src="Imagen/Móvil RedBird.png" alt="Móvil RedBird app" data-aos="fade-left" data-aos-offset="50" data-aos-duration="1000">
         </div>
 
-        <p>
+        <p data-aos="fade-right" data-aos-offset="50" data-aos-duration="1000">
             RedBird is a new kind of rideshare app—built on fairness, freedom, 
             and transparency. We started RedBird because we saw a broken system: 
             drivers losing up to 40% of every fare, riders frustrated by rising 
@@ -906,13 +908,13 @@
             We’re building a platform where trust, choice, and community come first. Fair rides. Better pay. And a new standard for how apps should treat people.
         </p>
 
-        <div class="btn">
+        <div class="btn" data-aos="fade-up" data-aos-offset="50" data-aos-duration="1000">
             <a href="">Join Waitlist</a>
         </div>
     </section>
     </section>
 
-    <footer class="footer_desktop">
+    <footer class="footer_desktop" data-aos="fade-up" data-aos-duration="1000">
         <main>
             <section class="sections_footer">
                 <h3>Sections</h3>
@@ -982,5 +984,11 @@
             </section>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
