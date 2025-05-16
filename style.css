@@ -18,6 +18,10 @@
     justify-content: space-evenly;
 }
 
+.identificador_visual img {
+    height: 50px;
+}
+
 .header_desktop nav {
     display: flex;
     align-items: center;
@@ -199,7 +203,6 @@
     background-size: cover;
     background-color: #EDEDED;
     display: flex;
-
     align-items: center;
 }
 
@@ -611,14 +614,18 @@ footer main h3 {
     }
 
     .header_mobile {
-        width: 100%;
-        height: auto;
+        min-width: 100%;
         display: flex;
         justify-content: space-around;
         position: fixed;
         align-items: center;        
         background-color: rgba(244, 244, 244, .95);
-        padding: 20px 0;
+        padding: 10px 0;
+        z-index: 1;
+    }
+
+    .identificador-visual-mobile img {
+        height: 40px;
     }
 
     .btn-menu, .btn-menu-close {
@@ -1028,5 +1035,4 @@ footer main h3 {
     .raya_footer {
         width: 80%;
     }
-
 }
