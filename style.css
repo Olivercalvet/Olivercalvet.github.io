@@ -1,0 +1,1046 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "roboto";
+    scroll-behavior: smooth;
+}
+
+
+/*Header de la Landing Page*/
+
+
+.header_desktop {
+    max-width: 100%;
+    background-color: #f4f4f4;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.identificador_visual img {
+    height: 50px;
+}
+
+.header_desktop nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 300px;
+}
+
+.header_desktop nav a {
+    text-decoration: none;
+    color: rgba(211, 47, 47, 1);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.header_desktop nav a:hover {
+    color: rgba(211, 47, 47, .5);
+    transition: 0.5s;
+}
+
+.header_mobile, .redbierd_mobile_responsive, .home_mobile_responsive, .driver_community_mobile, .driver_community_2_mobile, .subscription_plans_mobile, .about_us_mobile {
+    display: none;
+}
+
+
+/*Sección de Home*/
+
+
+.home_desktop_responsive {
+    max-height: 91vh;
+    min-height: 1000px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.cont_home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_information {
+    width: 454px;
+    display: grid;
+    gap: 40px;
+    margin-right: 50px;
+}
+
+.imagen_slogan {
+    display: flex;
+    justify-content: center;
+}
+
+.cont_information p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #505050;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btn a {
+    padding: 16px 52px;
+    background-color: rgba(211, 47, 47, 1);
+    border-radius: 50px;
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-color: #f4f4f4;
+    border-style: solid;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, .25); 
+}
+
+.btn a:hover {
+    background-color: rgba(211, 47, 47, 0.5);
+    transition: .5s;
+}
+
+.btn a:active {
+    background-color: #f4f4f4;
+    color: rgba(211, 47, 47, 1);
+}
+
+.rrss {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.rrss_nav article a svg path:hover, .rrss a svg path:hover {
+    opacity: .5;
+    transition: .5s;
+}
+
+
+/*Sección de RedBird*/
+
+.redbird_desktop_responsive {
+    max-height: 100vh;
+    min-height: 1000px;
+    min-width: 100vh;
+    background-image: url(Imagen/Fondo\ sección\ 2.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redbird_desktop_responsive main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_info_travel_left, .cont_info_parcel_right {
+    display: grid;
+    gap: 20px;
+}
+
+.cont_info_travel_left article, .cont_info_parcel_right article{
+    width: 230px;
+    height: 200px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .25); 
+    padding: 0 20px;
+    text-align: center;
+}
+
+.cont_info_travel_left article img, .cont_info_parcel_right article img {
+    padding: 20px 0;
+}
+
+.cont_info_travel_left article h4, .cont_info_parcel_right article h4 {
+    color: #505050;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+
+.cont_info_travel_left article p, .cont_info_parcel_right article p {
+    color: #505050;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.imagenes_centro article {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_horizontal {
+    margin-bottom: 40px;
+}
+
+.movil_parcel_travel img{
+    margin: 0 40px;
+}
+
+
+/*Sección de Community Driver No.1*/
+
+
+.driver_community_desktop {
+    max-height: 100vh;
+    min-height: 1000px;
+    min-width: 100vh;
+    background-image: url(Imagen/iPhone\ in\ Hand\ PSD\ Mockup\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #EDEDED;
+    display: flex;
+    align-items: center;
+}
+
+.driver_community_desktop main {
+    margin-left: 55%;
+}
+
+.driver_community_desktop main section h1 {
+    color: rgba(211, 47, 47, 1);
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.texto_driver_community {
+    color: #505050;
+    font-size: 20px;
+    font-weight: 500;
+    width: 60vh;
+    padding: 5vh 0;
+}
+
+.cont_centar{
+    display: grid;
+    justify-content: center;
+}
+
+.driver_community_desktop main section h2 {
+    color: rgba(211, 47, 47, 1);
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.cont_plecas {
+    display: grid;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.cont_plecas article {
+    display: flex;
+    width: 450px;
+}
+
+.cont_plecas article img {
+    padding-right: 16px;
+}
+
+.cont_plecas article p {
+    color: #505050;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+span {
+    font-weight: 700;
+}
+
+
+/*Sección de Community Driver No.2*/
+
+
+.driver_community_2_desktop {
+    max-height: 100vh;
+    min-height: 1000px;
+    min-width: 100vh;
+    background-image: url(Imagen/Fondo\ sección\ 5.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.driver_community_2_desktop main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_left_driver_community_2 {
+    margin-right: 30vh;
+}
+
+.info_left_driver_community_2  h1 {
+    color: #f4f4f4;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cont_card_info_left_driver_community_2 {
+    display: grid;
+    gap: 20px;
+}
+
+.cont_card_info_left_driver_community_2 article {
+    width: 440px;
+    height: 80px;
+    background-color: #f4f4f4;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .25);
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_card_info_left_driver_community_2 {
+    margin-left: 50px;
+    width: 270px;
+}
+
+.text_card_info_left_driver_community_2 h4 {
+    color: #505050;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.text_card_info_left_driver_community_2 p {
+    color: #505050;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/*Sección de Community Driver - Subscription Plans*/
+
+
+.subscription_plans_desktop {
+    max-height: 100vh;
+    min-height: 1000px;
+    min-width: 100vh;
+    background-image: url(Imagen/Rectangle\ 18.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription_plans_desktop main {
+    display: flex;
+}
+
+.subscription_plans_fotografia_movil {
+    margin-right: 100px;
+}
+
+.cont_subscription_plans_right h1 {
+    color: rgba(211, 47, 47, 1);
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.cont_card_right {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    height: 570px;
+    width: 285px;
+    background-color: rgba(244, 244, 244, .9);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.icono_dinero, .icono_reloj {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+.card h3 {
+    color: rgba(211, 47, 47, 1);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.cont_card_duration_value {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cont_card_duration_value article {
+    height: 100px;
+    width: 100px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_duration h4, .card_value h4 {
+    text-align: center;
+    color: rgba(80, 80, 80, .5);
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.card_duration label, .card_value label {
+    text-align: center;
+    color: rgba(211, 47, 47, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card ol {
+    font-size: 16px;
+    color: rgba(80, 80, 80, 1);
+    margin-bottom: 10px;
+    display: grid;
+    justify-content: center;
+    margin: 12px auto
+}
+
+.info_alert {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.info_alert img {
+    height: 20px;
+    margin: auto 0;
+}
+
+.info_alert p {
+    width: 200px;
+    font-size: 14px;
+    color: rgba(80, 80, 80, 1);
+    margin-left: 10px;
+}
+
+.lits_aling {
+    padding-bottom: 38px;
+}
+
+
+/*Sección de About Us*/
+
+
+.about_us_desktop {
+    max-height: 100vh;
+    min-height: 1000px;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_us_desktop main {
+    display: flex;
+    gap: 50px;
+}
+
+.cont_info_let_about_us {
+    display: grid;
+    gap: 30px;
+}
+
+.cont_info_let_about_us h1 {
+    color: rgba(211, 47, 47, 1);
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cont_info_let_about_us p {
+    width: 550px;
+    font-size: 18px;
+    color: rgba(80, 80, 80, 1);
+}
+
+.subt_abuot_us {
+    color: rgba(211, 47, 47, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about_us main article {
+    display: grid;
+    align-items: center;
+}
+
+
+/*Foote*/
+
+
+footer {
+    height: auto;
+    max-width: 100%;
+    background-color: #EDEDED;
+    box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, .25);
+    padding: 50px 20px 20px 20px;
+}
+
+footer main {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+footer main h3 {
+    color: #505050;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.sections_footer ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.cont_payment_methods_contct_us_footer {
+    display: grid;
+}
+
+.sections_footer ul li a, .cont_email_footer label a {
+    text-decoration-line: none;
+    color: #505050;
+}
+
+.sections_footer ul li a:hover, .cont_email_footer label a:hover, .cont_facebook_footer label a:hover, .cont_linked_in_footer label a:hover, .cont_x_footer label a:hover {
+    color: rgba(80, 80, 80, .5);
+    transition: .5s;
+}
+
+.cont_email_footer {
+    display: flex;
+}
+
+.follow_us_footer div {
+    margin-bottom: 10px;
+}
+
+.follow_us_footer div img {
+    height: 25px;
+}
+
+.cont_facebook_footer, .cont_linked_in_footer, .cont_x_footer {
+    display: flex;
+    gap: 10px;
+}
+
+.cont_email_footer svg {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.cont_facebook_footer label a, .cont_linked_in_footer label a, .cont_x_footer label a {
+    text-decoration-line: none;
+    color: #505050;
+}
+
+.raya_footer {
+    width: 100vh;
+    height: 2px;
+    background-color: rgba(80, 80, 80, .5);
+    margin: 20px auto;
+}
+
+.cont_logo_footer {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.cont_logo_nexispulse_footer {
+    display: flex;
+    gap: 10px;
+}
+
+.cont_logo_nexispulse_footer label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #505050;
+}
+
+
+/*Responsive Mobile*/
+
+
+@media (max-width: 768px) {
+ 
+    .header_desktop, .home_desktop_responsive, .driver_community_desktop, .driver_community_2_desktop, .subscription_plans_desktop, .about_us_desktop, .redbird_desktop_responsive {
+        display: none;
+    }
+
+    .header_mobile {
+        min-width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        align-items: center;        
+        background-color: rgba(244, 244, 244, .95);
+        padding: 10px 0;
+        z-index: 1;
+    }
+
+    .identificador-visual-mobile img {
+        height: 40px;
+    }
+
+    .btn-menu, .btn-menu-close {
+        display: none;
+    }
+
+    .nav {
+        min-width: 250px;
+        min-height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: rgba(244, 244, 244, .95);
+        border-radius: 30px 0 0 30px;
+        border: solid 3px #D32F2F;
+        box-shadow: 0 0 0 100vmax rgba(80, 80, 80, .15);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 500ms ease;
+        transform: translate(100%);
+        padding: 20px;
+    }
+
+    .cont-nav-mobile {
+        display: grid;
+        gap: 100px;
+    }
+
+    .cont-nav-mobile ul {
+        display: grid;
+        gap: 10px;
+    }
+
+    .icono-cerrar {
+        padding: 20px 0;
+    }
+
+    .icono-cerrar img {
+        width: 20px;
+    }
+
+    #btn-menu:checked ~ .nav {
+        opacity: 1;
+        visibility: visible;
+        transform: translate(0%);
+    }
+
+    .identificador_visual_nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .identificador_visual_nav img {
+        margin-top: 50px;
+        height: 100px;
+    }
+
+    .identificador_visual img {
+        height: 50px;
+    }
+
+    .header_mobile nav ul li {
+        list-style-type: none;
+        display: block;
+        justify-content: left;
+        width: 100%;
+        height: 40px;
+    }
+
+    .header_mobile nav ul li a {
+        text-decoration-line: none;
+        font-size: 1.3rem;
+        color: #D32F2F;
+        font-weight: 600;
+        margin: auto;
+    }
+
+    .rrss_nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    /*Sección Home Mobile*/
+    
+
+    .home_mobile_responsive {
+        height: auto;
+        max-width: 100%;
+        display: grid;
+        z-index: -1;
+    }
+
+    .cont_home {
+        display: grid;
+    }
+    
+    .imagen_slogan img {
+        width: 50%;
+        padding: 130px 0 40px 0;
+    }
+
+    .imagen_home img {
+        width: 100%;
+    }
+
+    .cont_mobile_responsive {
+        padding: 2rem;
+    }
+
+    .cont_mobile_responsive p {
+        font-size: 1.1rem;
+        color: #505050;
+        margin: auto;
+    }
+
+    .btn a {
+        padding: 14px 30px;
+        font-size: 1.2rem;
+        border-radius: 30px;
+    }
+
+
+    /*Sección RedBird Mobile*/
+
+
+    .redbierd_mobile_responsive {
+        display: grid;
+        justify-content: center;        
+    }
+
+    .logo_redbird_mobile {
+        display: grid;
+        justify-content: center;
+    }
+
+    .logo_redbird_mobile img {
+        margin: 50px 0 50px 0;
+    }
+
+    h1 {
+        color: #D32F2F;
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+     .photo_phone_travel_mobile, .photo_phone_parcel_redbird_mobile {
+        display: grid;
+        justify-content: center;
+        padding-bottom: 30px;
+     }
+
+    .photo_phone_travel_mobile img, .photo_phone_parcel_redbird_mobile img {
+        width: 90%;
+        margin: auto;
+    }
+
+    .cont_info_travel_left_mobile, .cont_info_parcel_right_mobile {
+        max-width: 100%;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 50px;
+        background: linear-gradient(to right, #730200, #D32F2F, #730200);
+        border-radius: 0 0 50px 50px;
+        padding: 40px;
+    }
+
+    .cont_info_travel_left_mobile article {
+        background-color: #f4f4f4;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
+        border-radius: 10px;
+        padding: 20px;
+
+        view-timeline-name: --reveal;
+    animation-name: show;
+    animation-fill-mode: both;
+    animation-timeline: --reveal;
+    animation-range: entry 20% cover 50%;
+    }
+
+    .cont_info_travel_left_mobile article div {
+        display: grid;
+        justify-content: center;
+    }
+
+    .cont_info_travel_left_mobile article h4 {
+        font-size: 1.3rem;
+        color: #505050;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .cont_info_travel_left_mobile article p {
+        font-size: 1.1rem;
+        color: #505050;
+        text-align: center;
+    }
+
+    .photo_phone_parcel_redbird_mobile, .photo_phone_travel_mobile {
+        background: linear-gradient(to right, #730200, #D32F2F, #730200);
+        border-radius: 50px 50px 0 0;
+        padding-top: 40px;
+    }
+
+
+    /*Sección Driver Community Mobile*/
+
+
+    .driver_community_mobile {
+        display: grid;
+        max-width: 100%;
+        background-color: #EDEDED;
+        padding: 50px 0;
+    }
+
+    .photo_driver_community_mobile img {
+        width: 95%;
+    }
+
+    .driver_community_mobile p {
+        font-size: 1.1rem;
+        color: #505050;
+        padding: 40px 20px 20px 20px;
+        max-width: 450px;
+        margin: auto;
+    }
+
+    h2 {
+        color: #D32F2F;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+        padding: 10px 20px 20px 20px;
+    }
+
+    .cont_list_why_be_part_mobile {
+        padding: 0;
+        margin: 0;
+     
+    }
+
+    .cont_list_why_be_part_mobile {
+        display: grid;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .cont_list_why_be_part_mobile article {
+        display: flex;
+        gap: 20px;
+    }
+
+    .cont_list_why_be_part_mobile article img {
+        width: 40px;
+    }
+
+    .cont_list_why_be_part_mobile label {
+        font-size: 1.1rem;
+        color: #505050;
+        padding: 10px 0;
+        max-width: 400px;
+    }
+
+
+    /*Sección Driver Community 2 Mobile*/
+
+
+    .driver_community_2_mobile {
+        display: grid;
+        background-color: #EDEDED;
+        margin-bottom: 30px;
+    }
+
+    .driver_community_2_mobile img {
+        width: 100%;
+    }
+
+    .cont_card_info_left_driver_community_2_mobile {
+        background: linear-gradient(to right, #730200, #D32F2F, #730200);
+        padding: 40px;
+        border-radius: 50px;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .cont_card_info_left_driver_community_2_mobile article {   
+        padding: 30px;
+        background-color: #f4f4f4;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
+        max-width: 100%;
+    }
+
+     .cont_card_info_left_driver_community_2_mobile article div {
+        display: grid;
+        justify-content: center;
+     }
+
+    .cont_card_info_left_driver_community_2_mobile article img {
+        width: 40px;
+
+    }
+
+     .cont_card_info_left_driver_community_2_mobile article h4 {
+        font-size: 1.5rem;
+        color: #505050;
+        padding: 10px 0;
+        text-align: center;
+     }
+
+    .cont_card_info_left_driver_community_2_mobile article p {
+        font-size: 1.1rem;
+        color: #505050;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+
+    /*Sección Subscription Plans Mobile*/
+
+
+    .subscription_plans_mobile {
+        display: grid;
+        max-width: 100%;
+    }
+
+    .photo_subscription_plans_mobile {
+        display: grid;
+        justify-content: center;
+        max-width: 100%;
+        background: linear-gradient(to right, #730200, #D32F2F, #730200);
+        padding: 40px 0;
+        border-radius: 50px 50px 0 0;
+    }
+
+    .photo_subscription_plans_mobile img {
+        max-width: 100%;
+    }
+
+    .cont_card_right {
+        display: grid;
+        justify-content: center;
+        padding: 40px 0;
+        gap: 30px;
+        background: linear-gradient(to right, #730200, #D32F2F, #730200);
+        border-radius: 0 0 50px 50px;
+        top: -1px;
+        margin-bottom: 30px;
+    }
+
+
+    /*Sección About Us Mobile*/
+
+
+    .about_us_mobile {
+        display: grid;
+        max-width: 100%;
+    }
+
+    .about_us_mobile div {
+        display: grid;
+        justify-content: center;
+        padding: 0 20px 30px 20px;
+    }
+
+    .about_us_mobile div img {
+        width: 100%;
+    }
+
+    .about_us_mobile p {
+        padding: 0 20px;
+        font-size: 1.1rem;
+        color: #505050;
+    }
+
+    .about_us_mobile p span {
+        color: #D32F2F;
+    }
+
+
+    /*Footer Mobile*/
+
+    
+    footer {
+        margin-top: 70px;
+    }
+    
+    footer main {
+        height: auto;
+        min-width: auto;
+        display: grid;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .cont_payment_methods_contct_us_footer {
+        gap: 50px;
+    }
+
+    .follow_us_footer div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .raya_footer {
+        width: 80%;
+    }
+}
