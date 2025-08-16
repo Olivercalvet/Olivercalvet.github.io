@@ -18,7 +18,7 @@
 .cont-header{
     min-width: 100%;
     height: auto;
-    padding: 20px 0;
+    padding: 15px 0;
 
     background-color: rgba(32, 32, 32, .4);
     backdrop-filter: blur(10px);
@@ -839,4 +839,5 @@
     }
 
 }
+
 
