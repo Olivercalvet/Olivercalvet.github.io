@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'nunito';
+    font-family: "Nunito", sans-serif;
     z-index: 1;
     list-style: none;
     text-decoration: none;
@@ -838,4 +838,5 @@
     .card-store {
         width: 190px;
     }
+
 }
