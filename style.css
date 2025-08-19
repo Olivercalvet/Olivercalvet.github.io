@@ -280,7 +280,7 @@
     padding: 8px 16px;
     background-color: #FF2A00;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     color: #f4f4f4;
 }
@@ -764,7 +764,7 @@
     }
 
     .value-card-store a {
-        font-size: 8px;
+        font-size: 14px;
         padding: 6px 10px;
     }
 
@@ -840,6 +840,7 @@
     }
 
 }
+
 
 
 
